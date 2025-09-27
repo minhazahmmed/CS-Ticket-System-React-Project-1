@@ -6,11 +6,13 @@ const Issues = ({fetchIssues}) => {
     const issues = use(fetchIssues)
     console.log(issues)
     return (
-         <Container>
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {issues.map((issue) => (
+        <Container>
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-4 md:w-2/3">
+        {
+        issues.map((issue) => (
           <Issue key={issue.id} issue={issue} />
-        ))}
+        ))
+        }
       </section>
     </Container>
     );
