@@ -8,7 +8,7 @@ const Footer = () => {
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
 
-          {/* Left side (Brand Info) */}
+          
           <div>
             <h1 className="text-white text-xl font-bold mb-3">CS — Ticket System</h1>
             <p className="text-sm leading-6">
@@ -18,8 +18,8 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Company */}
-          <div>
+        
+          <div className="md:ml-7">
             <h2 className="text-white text-lg font-semibold mb-3">Company</h2>
             <ul className="space-y-2 text-sm">
               <li><a href="#" className="hover:text-white">About Us</a></li>
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Copyright */}
+        
         <div className="mt-10 border-t border-gray-700 pt-5 text-center text-sm text-gray-400">
           © 2025 CS — Ticket System. All rights reserved.
         </div>
