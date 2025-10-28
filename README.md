@@ -1,4 +1,4 @@
-**Live Link:** [customer-ticket-issue-project.netlify.app](https://customer-ticket-issue-project.netlify.app)
+# Live Link: [customer-ticket-issue-project.netlify.app](https://customer-ticket-issue-project.netlify.app)
 
 
 <h1>1. What is JSX, and why is it used?</h1>
